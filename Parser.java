@@ -147,7 +147,7 @@ class Parser
         switch (tkcode)
         {
             case Constants.TK_PLUS:
-                e = new AddExpression(lft, rht, "+");
+                e = new AddExpression(lft, rht);
                 break;
             case Constants.TK_MINUS:
                 e = new SubtractExpression(lft, rht, "-");
